@@ -89,6 +89,19 @@ public class Main {
       }
       System.out.println("Reversed: " + reversedS);
 
+      // NESTED LOOPS
+      // Outer loop (runs 3 times)
+      for (int row = 1; row <= 3; row++) {
+         // Inner loop (runs 5 times for each outer loop)
+         for (int col = 1; col <= 5; col++) {
+            // Statement in this loop body executes 15 total times
+            System.out.print("🟪");
+         }
+         // after cols are printed, next line
+         System.out.println();
+      }
+
+
 
 
 
